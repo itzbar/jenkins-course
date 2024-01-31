@@ -7,9 +7,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                step ('itzik') {
-                    sh 'python --version'
-                }
+                sh 'python --version'
             }
         }
     }
